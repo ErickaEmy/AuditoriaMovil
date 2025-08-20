@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:tag="layout/fragment_local_music_title_content_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="50dp">
+        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/btnSongsLy" android:background="?attr/ffd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="12dp">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/ivSongs" android:visibility="gone" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginStart="14dp"/>
+            <Button android:textSize="14sp" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/btnSongs" android:tag="binding_1" android:background="?attr/ffd" android:paddingTop="0dp" android:paddingBottom="0dp" android:layout_width="wrap_content" android:layout_height="30dp" android:textAllCaps="false" android:paddingStart="15dp" android:paddingEnd="15dp"/>
+            <View android:id="@+id/btnSongsLine" android:tag="0" android:visibility="gone" android:layout_width="0dp" android:layout_height="1.5dp" android:paddingStart="11dp" android:paddingEnd="11dp" android:layout_marginStart="2dp"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/btnPlaylistLy" android:background="?attr/ffx" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@+id/ivPlaylist" android:visibility="gone" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginStart="14dp"/>
+            <Button android:textSize="14sp" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/btnPlaylist" android:tag="binding_2" android:background="?attr/ffx" android:paddingTop="0dp" android:paddingBottom="0dp" android:layout_width="wrap_content" android:layout_height="30dp" android:textAllCaps="false" android:paddingStart="15dp" android:paddingEnd="15dp"/>
+            <View android:id="@+id/btnPlaylistLine" android:tag="0" android:visibility="gone" android:layout_width="0dp" android:layout_height="1.5dp" android:paddingStart="11dp" android:paddingEnd="11dp" android:layout_marginStart="2dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/fragment_holder" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

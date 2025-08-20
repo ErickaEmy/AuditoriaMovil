@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="sr" parent="@android:style/TextAppearance.Material.Widget.Button.Borderless.Colored">
+    </style>
+    <style name="ss" parent="@android:style/TextAppearance.Material.Widget.Button.Colored">
+    </style>
+    <style name="a0" parent="@style/a1">
+        <item name="android:colorBackground">@color/g2</item>
+        <item name="android:buttonBarButtonStyle">?attr/buttonBarButtonStyle</item>
+        <item name="android:timePickerDialogTheme">@style/cg</item>
+        <item name="android:datePickerDialogTheme">@style/cg</item>
+        <item name="android:contextPopupMenuStyle">@style/w1</item>
+        <item name="a">@style/cj</item>
+        <item name="b">@dimen/ch</item>
+        <item name="j">@style/zv</item>
+        <item name="h">@style/m7</item>
+        <item name="fy">@style/w3</item>
+        <item name="re">@style/ch</item>
+        <item name="r8">@style/z2</item>
+        <item name="borderlessButtonStyle">@style/oh</item>
+        <item name="br">@style/or</item>
+        <item name="bs">@style/ck</item>
+        <item name="buttonBarButtonStyle">@style/oh</item>
+        <item name="kh">@style/o4</item>
+        <item name="j9">?attr/uy</item>
+        <item name="colorError">@color/g3</item>
+        <item name="y8">@color/g9</item>
+        <item name="colorPrimaryDark">@color/hf</item>
+        <item name="lv">@style/o9</item>
+        <item name="n3">@style/w2</item>
+        <item name="fry">@style/ct</item>
+        <item name="frt">@style/ce</item>
+        <item name="frv">@style/wa</item>
+        <item name="fr0">@style/cw</item>
+        <item name="fr7">@style/c3</item>
+        <item name="fax">@style/wv</item>
+        <item name="fky">@style/w0</item>
+        <item name="fjj">@style/o5</item>
+        <item name="fgd">@style/ot</item>
+        <item name="fgl">@style/w7</item>
+        <item name="fgi">@style/w9</item>
+        <item name="fh4">@style/o6</item>
+        <item name="fxp">@style/ef</item>
+        <item name="textAppearanceLargePopupMenu">?attr/fdl</item>
+        <item name="textAppearanceSmallPopupMenu">?attr/fdl</item>
+        <item name="fd3">@style/ey</item>
+        <item name="fio">@style/ee</item>
+        <item name="viewInflaterClass">com.google.android.material.theme.MaterialComponentsViewInflater</item>
+    </style>
+    <style name="a2" parent="@style/a3">
+        <item name="android:colorBackground">@color/g2</item>
+        <item name="android:contextPopupMenuStyle">@style/w1</item>
+        <item name="a">@style/cj</item>
+        <item name="b">@dimen/ch</item>
+        <item name="j">@style/zv</item>
+        <item name="h">@style/m7</item>
+        <item name="fy">@style/w3</item>
+        <item name="re">@style/ch</item>
+        <item name="r8">@style/z2</item>
+        <item name="borderlessButtonStyle">@style/oh</item>
+        <item name="br">@style/or</item>
+        <item name="buttonBarButtonStyle">@style/od</item>
+        <item name="kh">@style/o4</item>
+        <item name="j9">?attr/uy</item>
+        <item name="colorError">@color/g3</item>
+        <item name="y8">@color/g9</item>
+        <item name="colorPrimaryDark">@color/hf</item>
+        <item name="uy">@color/hs</item>
+        <item name="lv">@style/o9</item>
+        <item name="n3">@style/w2</item>
+        <item name="fry">@style/ct</item>
+        <item name="fax">@style/wv</item>
+        <item name="fky">@style/w0</item>
+        <item name="fjj">@style/o5</item>
+        <item name="fgd">@style/ot</item>
+        <item name="fgl">@style/w7</item>
+        <item name="fgi">@style/w9</item>
+        <item name="fh4">@style/o6</item>
+        <item name="fxp">@style/ef</item>
+        <item name="textAppearanceLargePopupMenu">?attr/fdl</item>
+        <item name="textAppearanceSmallPopupMenu">?attr/fdl</item>
+        <item name="fd3">@style/ey</item>
+        <item name="fio">@style/ee</item>
+        <item name="viewInflaterClass">com.google.android.material.theme.MaterialComponentsViewInflater</item>
+    </style>
+    <style name="a4" parent="@style/a5">
+        <item name="android:colorBackground">@color/hk</item>
+        <item name="android:buttonBarButtonStyle">?attr/buttonBarButtonStyle</item>
+        <item name="android:timePickerDialogTheme">@style/cg</item>
+        <item name="android:datePickerDialogTheme">@style/cg</item>
+        <item name="android:contextPopupMenuStyle">@style/w1</item>
+        <item name="a">@style/cd</item>
+        <item name="b">@dimen/ch</item>
+        <item name="j">@style/wf</item>
+        <item name="fy">@style/w3</item>
+        <item name="re">@style/ch</item>
+        <item name="r8">@style/z0</item>
+        <item name="borderlessButtonStyle">@style/oh</item>
+        <item name="br">@style/or</item>
+        <item name="bs">@style/cl</item>
+        <item name="buttonBarButtonStyle">@style/oh</item>
+        <item name="kh">@style/o4</item>
+        <item name="j9">?attr/uy</item>
+        <item name="colorError">@color/hj</item>
+        <item name="y8">@color/hd</item>
+        <item name="colorPrimaryDark">@color/hl</item>
+        <item name="lv">@style/o9</item>
+        <item name="n3">@style/w2</item>
+        <item name="fry">@style/ct</item>
+        <item name="frt">@style/ce</item>
+        <item name="frv">@style/wa</item>
+        <item name="fr0">@style/cw</item>
+        <item name="fr7">@style/c3</item>
+        <item name="fax">@style/wv</item>
+        <item name="fky">@style/w0</item>
+        <item name="fjj">@style/o5</item>
+        <item name="fgd">@style/ot</item>
+        <item name="fgl">@style/w7</item>
+        <item name="fgi">@style/w9</item>
+        <item name="fh4">@style/o6</item>
+        <item name="fxp">@style/ef</item>
+        <item name="textAppearanceLargePopupMenu">?attr/fdl</item>
+        <item name="textAppearanceSmallPopupMenu">?attr/fdl</item>
+        <item name="fd3">@style/ey</item>
+        <item name="fio">@style/ee</item>
+        <item name="viewInflaterClass">com.google.android.material.theme.MaterialComponentsViewInflater</item>
+    </style>
+    <style name="a7" parent="@style/a8">
+        <item name="android:colorBackground">@color/hk</item>
+        <item name="android:contextPopupMenuStyle">@style/w1</item>
+        <item name="a">@style/cd</item>
+        <item name="b">@dimen/ch</item>
+        <item name="j">@style/wf</item>
+        <item name="fy">@style/w3</item>
+        <item name="re">@style/ch</item>
+        <item name="r8">@style/z0</item>
+        <item name="borderlessButtonStyle">@style/oh</item>
+        <item name="br">@style/or</item>
+        <item name="buttonBarButtonStyle">@style/od</item>
+        <item name="kh">@style/o4</item>
+        <item name="j9">?attr/uy</item>
+        <item name="colorError">@color/hj</item>
+        <item name="y8">@color/hd</item>
+        <item name="colorPrimaryDark">@color/hl</item>
+        <item name="uy">@color/ht</item>
+        <item name="lv">@style/o9</item>
+        <item name="n3">@style/w2</item>
+        <item name="fry">@style/ct</item>
+        <item name="fax">@style/wv</item>
+        <item name="fky">@style/w0</item>
+        <item name="fjj">@style/o5</item>
+        <item name="fgd">@style/ot</item>
+        <item name="fgl">@style/w7</item>
+        <item name="fgi">@style/w9</item>
+        <item name="fh4">@style/o6</item>
+        <item name="fxp">@style/ef</item>
+        <item name="textAppearanceLargePopupMenu">?attr/fdl</item>
+        <item name="textAppearanceSmallPopupMenu">?attr/fdl</item>
+        <item name="fd3">@style/ey</item>
+        <item name="fio">@style/ee</item>
+        <item name="viewInflaterClass">com.google.android.material.theme.MaterialComponentsViewInflater</item>
+    </style>
+    <style name="lg" parent="@style/lu">
+    </style>
+    <style name="ld" parent="@style/ly">
+    </style>
+    <style name="li" parent="@style/ll">
+    </style>
+    <style name="lm" parent="@style/lt">
+    </style>
+</resources>

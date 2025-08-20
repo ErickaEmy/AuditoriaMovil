@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/ky" android:layout_width="match_parent" android:layout_height="match_parent" android:elevation="10dp">
+    <LinearLayout android:orientation="vertical" android:id="@+id/partners_content_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/s1">
+        <TextView android:id="@+id/title_textview" style="@style/nf"/>
+        <TextView android:id="@+id/message_textview" android:layout_marginBottom="20dp" android:text="@string/bz" android:layout_marginStart="@dimen/s0" android:layout_marginEnd="@dimen/s0" style="@style/e7"/>
+        <ScrollView android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="14sp" android:textColor="@color/f0" android:textColorLink="@color/f0" android:autoLink="all" android:id="@+id/partner_links_textview" android:layout_width="match_parent" android:layout_height="match_parent" android:lineSpacingExtra="4dp" android:layout_marginStart="@dimen/s0" android:layout_marginEnd="@dimen/s0"/>
+        </ScrollView>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@+id/controls_view" android:layout_width="match_parent" android:layout_height="@dimen/s1">
+        <Button android:layout_gravity="top" android:id="@+id/back_button" android:layout_marginTop="8dp" android:text="@string/b0" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" style="@style/e9"/>
+    </FrameLayout>
+</FrameLayout>

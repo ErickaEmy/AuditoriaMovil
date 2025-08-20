@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="zp" parent="@style/jo">
+        <item name="fh8">center</item>
+        <item name="fxx">fixed</item>
+    </style>
+</resources>

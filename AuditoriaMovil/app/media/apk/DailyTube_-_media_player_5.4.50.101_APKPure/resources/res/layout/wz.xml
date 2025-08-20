@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="start|bottom" android:layout_gravity="start|top" android:id="@+id/mtrl_picker_header_selection_text" android:paddingBottom="@dimen/il" android:layout_width="match_parent" android:layout_height="wrap_content" app:firstBaselineToTopHeight="@dimen/ic" app:lineHeight="@dimen/is" style="?attr/frz"/>

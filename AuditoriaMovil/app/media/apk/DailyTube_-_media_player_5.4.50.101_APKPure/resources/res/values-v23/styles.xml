@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="r3" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu">
+    </style>
+    <style name="sa" parent="@android:style/TextAppearance.Material.Widget.Button.Inverse">
+    </style>
+    <style name="sc" parent="@style/bl">
+    </style>
+    <style name="sn" parent="@style/bi">
+    </style>
+    <style name="bl" parent="@style/bx">
+        <item name="actionBarItemBackground">?android:attr/actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:attr/actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:attr/actionMenuTextColor</item>
+        <item name="fj">?android:attr/actionOverflowButtonStyle</item>
+        <item name="controlBackground">@drawable/abc_control_background_material</item>
+        <item name="ratingBarStyleIndicator">?android:attr/ratingBarStyleIndicator</item>
+        <item name="ratingBarStyleSmall">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="bi" parent="@style/bd">
+        <item name="actionBarItemBackground">?android:attr/actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:attr/actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:attr/actionMenuTextColor</item>
+        <item name="fj">?android:attr/actionOverflowButtonStyle</item>
+        <item name="controlBackground">@drawable/abc_control_background_material</item>
+        <item name="ratingBarStyleIndicator">?android:attr/ratingBarStyleIndicator</item>
+        <item name="ratingBarStyleSmall">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="kj" parent="@android:style/Widget.Material.ActionButton.Overflow">
+    </style>
+    <style name="kd" parent="@android:style/Widget.Material.Button.Borderless.Colored">
+    </style>
+    <style name="ki" parent="@android:style/Widget.Material.Button.Colored">
+        <item name="android:textAppearance">@style/d9</item>
+    </style>
+    <style name="kn" parent="@android:style/Widget.Material.EditText">
+        <item name="android:breakStrategy">simple</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="jg" parent="@android:style/Widget.Material.RatingBar.Indicator">
+    </style>
+    <style name="jh" parent="@android:style/Widget.Material.RatingBar.Small">
+    </style>
+    <style name="jm" parent="@android:style/Widget.Material.Spinner.Underlined">
+    </style>
+    <style name="jc" parent="@android:style/Widget.Material.TextView">
+        <item name="android:breakStrategy">high_quality</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="yj" parent="@style/f3">
+        <item name="b7">?android:attr/colorBackgroundFloating</item>
+    </style>
+    <style name="w1" parent="@style/j1">
+        <item name="android:popupBackground">?attr/fkj</item>
+        <item name="android:popupElevation">8dp</item>
+    </style>
+    <style name="w2" parent="@style/j2">
+        <item name="android:popupBackground">?attr/fkj</item>
+        <item name="android:popupElevation">8dp</item>
+    </style>
+</resources>

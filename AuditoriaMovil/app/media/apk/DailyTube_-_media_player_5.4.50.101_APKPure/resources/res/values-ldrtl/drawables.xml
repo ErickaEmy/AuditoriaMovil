@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="fuw">@drawable/fuo</drawable>
+    <drawable name="fue">@drawable/fun</drawable>
+</resources>

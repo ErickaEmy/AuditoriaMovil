@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/fans_zone_bottom_tab_guide_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="start|bottom" android:id="@+id/clRoot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="50dp">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="12sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="start|center_vertical" android:id="@+id/tvGuide" android:tag="binding_1" android:background="@drawable/mc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="230dp" android:paddingStart="60dp" android:layout_marginStart="10dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0"/>
+        <androidx.appcompat.widget.AppCompatImageView android:id="@+id/ivGuide" android:layout_width="60dp" android:layout_height="wrap_content" android:scaleType="fitXY" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:layout_constraintVertical_bias="0.4" app:srcCompat="@drawable/mq"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

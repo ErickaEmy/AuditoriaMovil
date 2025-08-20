@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/fans_zone_layout_me_entrance_platform_guide_0" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@+id/ivBg" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent" android:adjustViewBounds="true"/>
+    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="bottom" android:id="@+id/recyclerView" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="18dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:stackFromEnd="true"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

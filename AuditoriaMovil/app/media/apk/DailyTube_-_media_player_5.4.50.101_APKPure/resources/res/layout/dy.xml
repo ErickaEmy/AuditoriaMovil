@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<io.supercharge.shimmerlayout.ShimmerLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/shimmerLayout" android:tag="layout/layout_channel_live_loading_0" android:layout_width="match_parent" android:layout_height="wrap_content" app:shimmer_angle="0" app:shimmer_animation_duration="800" app:shimmer_color="?attr/fui" app:shimmer_mask_width="0.5">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/loading_container" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@+id/sort" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/d1"/>
+        <include android:id="@+id/video1" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@+id/sort" layout="@layout/dl"/>
+        <include android:id="@+id/video2" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@+id/video1" layout="@layout/dl"/>
+        <include android:id="@+id/video3" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@+id/video2" layout="@layout/dl"/>
+        <include android:id="@+id/video4" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@+id/video3" layout="@layout/dl"/>
+        <include android:id="@+id/video5" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@+id/video4" layout="@layout/dl"/>
+        <include android:id="@+id/video6" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@+id/video5" layout="@layout/dl"/>
+        <include android:id="@+id/video7" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@+id/video6" layout="@layout/dl"/>
+        <include android:id="@+id/video8" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@+id/video7" layout="@layout/dl"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</io.supercharge.shimmerlayout.ShimmerLayout>

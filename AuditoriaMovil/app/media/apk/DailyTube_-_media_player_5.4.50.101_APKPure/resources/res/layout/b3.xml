@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_vertical" android:orientation="horizontal" android:tag="layout/fans_zone_layout_winner_0" android:layout_width="match_parent" android:layout_height="36dp">
+    <TextView android:textSize="10sp" android:textColor="@color/zp" android:ellipsize="end" android:gravity="center" android:tag="binding_1" android:layout_width="0dp" android:layout_height="match_parent" android:maxLines="1" android:layout_weight="1"/>
+    <TextView android:textSize="10sp" android:textColor="@color/zp" android:ellipsize="end" android:gravity="center" android:tag="binding_2" android:layout_width="0dp" android:layout_height="match_parent" android:maxLines="1" android:layout_weight="1" android:layout_marginStart="1dp" android:layout_marginEnd="1dp"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="16dp" android:layout_height="16dp" app:srcCompat="@drawable/cy"/>
+        <TextView android:textSize="11sp" android:textColor="@color/zp" android:gravity="center" android:id="@+id/tvReward" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginStart="4dp" android:layout_marginEnd="1dp"/>
+    </LinearLayout>
+</LinearLayout>

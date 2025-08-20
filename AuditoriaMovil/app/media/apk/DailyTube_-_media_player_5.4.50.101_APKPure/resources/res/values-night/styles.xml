@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="it" parent="@style/il">
+    </style>
+    <style name="im" parent="@style/il">
+    </style>
+    <style name="ic" parent="@style/iw">
+    </style>
+    <style name="iq" parent="@style/ie">
+    </style>
+    <style name="ip" parent="@style/in">
+    </style>
+    <style name="iz" parent="@style/iv">
+    </style>
+    <style name="io" parent="@style/i8">
+    </style>
+    <style name="th" parent="@style/tj">
+    </style>
+    <style name="tx" parent="@style/ty">
+    </style>
+    <style name="td" parent="@style/tu">
+    </style>
+    <style name="tl" parent="@style/tj">
+    </style>
+    <style name="ti" parent="@style/tu">
+    </style>
+    <style name="tt" parent="@style/t0">
+    </style>
+    <style name="tm" parent="@style/t1">
+    </style>
+    <style name="tc" parent="@style/t2">
+    </style>
+    <style name="tq" parent="@style/t3">
+    </style>
+    <style name="tp" parent="@style/t4">
+    </style>
+    <style name="tz" parent="@style/t5">
+    </style>
+    <style name="to" parent="@style/t6">
+    </style>
+    <style name="tw" parent="@style/t7">
+    </style>
+    <style name="te" parent="@style/t8">
+    </style>
+    <style name="tn" parent="@style/mc">
+    </style>
+    <style name="tv" parent="@style/mq">
+    </style>
+    <style name="mn" parent="@style/mw">
+    </style>
+    <style name="cu" parent="@style/ck">
+    </style>
+    <style name="ze" parent="@style/zv">
+    </style>
+    <style name="z1" parent="@style/z2">
+    </style>
+    <style name="of" parent="@style/z8">
+    </style>
+    <style name="oa" parent="@style/or">
+    </style>
+    <style name="es" parent="@style/ef">
+    </style>
+    <style name="ev" parent="@style/e0">
+    </style>
+</resources>

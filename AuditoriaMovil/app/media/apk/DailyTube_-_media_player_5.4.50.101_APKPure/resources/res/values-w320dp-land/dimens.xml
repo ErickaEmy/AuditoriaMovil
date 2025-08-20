@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="at">24dp</dimen>
+    <dimen name="xx">36dp</dimen>
+    <dimen name="xp">170dp</dimen>
+</resources>

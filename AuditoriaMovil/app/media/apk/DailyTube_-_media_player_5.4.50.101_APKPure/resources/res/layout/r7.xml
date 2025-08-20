@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/ky" android:layout_width="match_parent" android:layout_height="match_parent" android:elevation="10dp">
+    <ScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/sv">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:id="@+id/title_textview" android:text="@string/bv" style="@style/nf"/>
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="100dp" android:layout_height="100dp" android:layout_marginBottom="20dp" android:src="@drawable/yt"/>
+            <TextView android:id="@+id/message_textview" android:layout_marginBottom="20dp" android:text="@string/bn" android:layout_marginStart="@dimen/s0" android:layout_marginEnd="@dimen/s0" style="@style/e7"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/controls_view" android:layout_width="match_parent" android:layout_height="@dimen/sv">
+        <Button android:id="@+id/back_button" android:layout_marginTop="8dp" android:text="@string/b0" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" style="@style/e9"/>
+        <Button android:id="@+id/understand_and_confirm_button" android:layout_marginTop="8dp" android:layout_marginBottom="12dp" android:text="@string/ka" style="@style/e8"/>
+    </LinearLayout>
+</FrameLayout>

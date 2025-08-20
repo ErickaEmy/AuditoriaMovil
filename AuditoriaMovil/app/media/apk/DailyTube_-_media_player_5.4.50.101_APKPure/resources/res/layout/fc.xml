@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:tag="layout/activity_report_detail_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/toolbar" layout="@layout/pq"/>
+    <androidx.fragment.app.FragmentContainerView android:name="androidx.navigation.fragment.NavHostFragment" android:id="@+id/nav_host_fragment" android:layout_width="match_parent" android:layout_height="0dp" bind:defaultNavHost="true" bind:layout_constraintBottom_toBottomOf="0" bind:layout_constraintTop_toBottomOf="@+id/toolbar" bind:navGraph="@navigation/a"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

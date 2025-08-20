@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/dialog_view" android:background="@drawable/ky" android:layout_width="match_parent" android:layout_height="match_parent" android:elevation="10dp">
+    <ScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/sv" android:elevation="10dp">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/main_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/title_textview" style="@style/nf"/>
+            <TextView android:id="@+id/message_textview" android:layout_marginBottom="20dp" android:text="@string/b5" android:layout_marginStart="@dimen/s0" android:layout_marginEnd="@dimen/s0" style="@style/e7"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="18dp" android:paddingEnd="18dp">
+                <ImageView android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="4dp" android:layout_marginRight="10dp" android:src="@drawable/ju" android:layout_marginStart="4dp" android:layout_marginEnd="10dp"/>
+                <TextView android:layout_gravity="center_vertical" android:layout_marginRight="16dp" android:text="@string/b1" android:layout_marginEnd="16dp" style="@style/e7"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="18dp" android:paddingEnd="18dp">
+                <ImageView android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="4dp" android:layout_marginRight="10dp" android:src="@drawable/ju" android:layout_marginStart="4dp" android:layout_marginEnd="10dp"/>
+                <TextView android:layout_gravity="center_vertical" android:layout_marginRight="16dp" android:text="@string/b2" android:layout_marginEnd="16dp" style="@style/e7"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="18dp" android:paddingEnd="18dp">
+                <ImageView android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="4dp" android:layout_marginRight="10dp" android:src="@drawable/ju" android:layout_marginStart="4dp" android:layout_marginEnd="10dp"/>
+                <TextView android:layout_gravity="center_vertical" android:layout_marginRight="16dp" android:text="@string/b3" android:layout_marginEnd="16dp" style="@style/e7"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="18dp" android:paddingEnd="18dp">
+                <ImageView android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="4dp" android:layout_marginRight="10dp" android:src="@drawable/ju" android:layout_marginStart="4dp" android:layout_marginEnd="10dp"/>
+                <TextView android:layout_gravity="center_vertical" android:layout_marginRight="16dp" android:text="@string/b4" android:layout_marginEnd="16dp" style="@style/e7"/>
+            </LinearLayout>
+            <TextView android:layout_marginTop="10dp" android:layout_marginBottom="20dp" android:text="@string/b6" android:layout_marginStart="@dimen/s0" android:layout_marginEnd="@dimen/s0" style="@style/e7"/>
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:layout_gravity="bottom" android:id="@+id/controls_view" android:layout_width="match_parent" android:layout_height="@dimen/sv">
+        <Button android:layout_gravity="top" android:id="@+id/back_button" android:layout_marginTop="8dp" android:layout_marginBottom="12dp" android:text="@string/b0" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" style="@style/e9"/>
+    </FrameLayout>
+</FrameLayout>

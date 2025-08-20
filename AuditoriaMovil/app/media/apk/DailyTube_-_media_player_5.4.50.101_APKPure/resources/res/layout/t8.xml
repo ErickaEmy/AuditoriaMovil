@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="?attr/vv" android:paddingTop="10dp" android:paddingBottom="10dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="60dp" android:paddingStart="14dp" android:paddingEnd="14dp" android:translationZ="6dp">
+    <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="?attr/vz" android:gravity="center" android:id="@+id/actionDeleteBtn" android:background="?attr/vc" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/fga" android:layout_weight="1"/>
+    <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="?attr/vp" android:gravity="center" android:id="@+id/actionAddPlaylistBtn" android:background="?attr/vq" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/fup" android:layout_weight="1" android:layout_marginStart="16dp"/>
+</LinearLayout>

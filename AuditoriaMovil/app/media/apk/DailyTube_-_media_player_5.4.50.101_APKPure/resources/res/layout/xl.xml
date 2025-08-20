@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/item_video_detail_anim_functional_botton_0" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout android:tag="binding_1" android:paddingTop="@dimen/u4" android:paddingBottom="@dimen/u4" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="55dp">
+        <FrameLayout android:layout_gravity="center" android:id="@+id/rippleView" android:layout_width="10dp" android:layout_height="10dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <FrameLayout android:id="@+id/iconContainer" android:layout_width="24dp" android:layout_height="24dp" app:layout_constraintBottom_toTopOf="@+id/btTv" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+            <free.daily.tube.module.share_interface.widget.ShareAnimButton android:layout_gravity="center" android:id="@+id/btIv" android:tag="binding_2" android:layout_width="24dp" android:layout_height="24dp" app:delay_time="10000" app:display_time="3000" app:interval_time="30000" app:srcCompat="?attr/pn"/>
+        </FrameLayout>
+        <TextView android:textSize="12sp" android:id="@+id/btTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:includeFontPadding="false" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/iconContainer"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

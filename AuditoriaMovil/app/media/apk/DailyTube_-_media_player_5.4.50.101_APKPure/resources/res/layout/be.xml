@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/fans_zone_layout_history_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.constraintlayout.utils.widget.ImageFilterView android:id="@+id/ivBg" android:tag="binding_1" android:layout_width="0dp" android:layout_height="0dp" android:layout_marginTop="14dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintDimensionRatio="h,336:90" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:round="10dp"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/llWinnerList" android:background="@drawable/mw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:layout_marginEnd="8dp" app:layout_constraintBottom_toBottomOf="@+id/ivBg" app:layout_constraintEnd_toEndOf="@+id/ivBg">
+        <TextView android:textSize="12sp" android:textColor="@color/zp" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/jo" android:layout_marginBottom="@dimen/jo" android:shadowColor="#b0000000" android:shadowRadius="3" android:layout_marginStart="9dp"/>
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="12dp" android:layout_height="12dp" android:layout_marginStart="1dp" android:layout_marginEnd="@dimen/jo" app:srcCompat="@drawable/mn"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

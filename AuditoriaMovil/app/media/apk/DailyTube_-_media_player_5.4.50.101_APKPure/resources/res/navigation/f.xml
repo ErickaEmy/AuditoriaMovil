@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph">
+    <fragment android:label="InputFragment" android:name="free.daily.tube.module.encrypt.page.LocalEncryptInputFragment" android:id="@+id/inputFragment">
+        <action android:id="@+id/action_inputFragment_to_contentFragment" app:destination="@+id/contentFragment"/>
+    </fragment>
+    <fragment android:label="EncryptContentFragment" android:name="free.daily.tube.module.encrypt.page.LocalEncryptContentFragment" android:id="@+id/contentFragment">
+        <action android:id="@+id/action_contentFragment_to_inputFragment" app:destination="@+id/inputFragment"/>
+    </fragment>
+</navigation>

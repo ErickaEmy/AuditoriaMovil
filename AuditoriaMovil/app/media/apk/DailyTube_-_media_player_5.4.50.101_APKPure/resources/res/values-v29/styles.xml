@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="f2" parent="@style/bw">
+    </style>
+    <style name="f4" parent="@style/be">
+    </style>
+    <style name="f7" parent="@style/bn">
+    </style>
+    <style name="bw" parent="@style/bv">
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+    </style>
+    <style name="be" parent="@style/b0">
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+    </style>
+    <style name="bn" parent="@style/i7">
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:enforceNavigationBarContrast">false</item>
+    </style>
+    <style name="gm" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:forceDarkAllowed">false</item>
+    </style>
+</resources>

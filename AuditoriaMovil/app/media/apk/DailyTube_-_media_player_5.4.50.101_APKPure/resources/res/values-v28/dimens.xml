@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="te">0.24</dimen>
+    <dimen name="tn">0.4</dimen>
+    <dimen name="tv">0.4</dimen>
+    <dimen name="t0">0.24</dimen>
+    <dimen name="t2">0.12</dimen>
+    <dimen name="t3">0.2</dimen>
+    <dimen name="t4">0.2</dimen>
+    <dimen name="t5">0.12</dimen>
+</resources>

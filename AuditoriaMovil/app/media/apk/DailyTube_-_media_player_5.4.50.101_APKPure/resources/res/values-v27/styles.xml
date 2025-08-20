@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="f2" parent="@style/bq">
+    </style>
+    <style name="f4" parent="@style/bp">
+    </style>
+    <style name="bq" parent="@style/bv">
+        <item name="android:navigationBarColor">@android:color/black</item>
+    </style>
+    <style name="bp" parent="@style/b0">
+        <item name="android:navigationBarColor">@color/gf</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+</resources>

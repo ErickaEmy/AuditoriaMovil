@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/layoutRoot" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/ivPureEnjoyRemoteBg" android:layout_width="match_parent" android:layout_height="98dp"/>
+    <ImageView android:id="@+id/ivPureEnjoyRemoteAppIcon" android:layout_width="18dp" android:layout_height="18dp" android:layout_marginTop="16dp" android:layout_marginStart="16dp"/>
+    <TextView android:textSize="14sp" android:textColor="#ff888888" android:id="@+id/tvPureEnjoyRemoteAppNamePrima" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@+id/ivPureEnjoyRemoteAppIcon" android:layout_alignBottom="@+id/ivPureEnjoyRemoteAppIcon" android:layout_marginStart="8dp" android:layout_toEndOf="@+id/ivPureEnjoyRemoteAppIcon"/>
+    <ImageView android:id="@+id/ivPureEnjoyRemotePlayingPrima" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginTop="20dp" android:layout_below="@+id/ivPureEnjoyRemoteAppIcon" android:layout_alignStart="@+id/ivPureEnjoyRemoteAppIcon"/>
+    <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#ff8d53f4" android:id="@+id/tvPureEnjoyRemotePlaying" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-3dp" android:layout_alignTop="@+id/ivPureEnjoyRemotePlayingPrima" android:layout_marginStart="8dp" android:layout_toEndOf="@+id/ivPureEnjoyRemotePlayingPrima"/>
+</RelativeLayout>

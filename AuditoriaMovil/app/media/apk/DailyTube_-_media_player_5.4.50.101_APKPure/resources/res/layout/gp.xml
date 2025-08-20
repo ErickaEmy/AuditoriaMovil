@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:tag="layout/fragment_search_result_container_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:id="@+id/app_bar" android:tag="binding_1" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" app:elevation="0dp">
+        <com.google.android.material.tabs.TabLayout android:id="@+id/result_container_tab_layout" android:layout_width="match_parent" android:layout_height="@dimen/zm" android:translationZ="@dimen/g7" app:layout_scrollFlags="0x5" app:tabIndicator="@drawable/fdv" app:tabIndicatorColor="?attr/um" app:tabIndicatorFullWidth="false" app:tabIndicatorHeight="@dimen/zc" app:tabMode="1" app:tabSelectedTextColor="?attr/uq" app:tabTextAppearance="@style/hv" app:tabTextColor="?attr/uc"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@+id/search_result_view_pager" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/bl"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="sc" parent="@style/bt">
+    </style>
+    <style name="sn" parent="@style/bm">
+    </style>
+    <style name="bt" parent="@style/bl">
+        <item name="colorError">?android:attr/colorError</item>
+    </style>
+    <style name="bm" parent="@style/bi">
+        <item name="colorError">?android:attr/colorError</item>
+    </style>
+    <style name="bc" parent="@style/b8">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+    <style name="jp" parent="@style/bc">
+    </style>
+    <style name="zx" parent="@android:style/Widget">
+        <item name="android:background">?attr/y8</item>
+        <item name="android:stateListAnimator">@animator/s</item>
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="yo" parent="@android:style/Widget.EditText">
+        <item name="android:gravity">center</item>
+        <item name="android:textDirection">rtl</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="id" parent="@android:style/Widget.TextView">
+        <item name="android:textDirection">rtl</item>
+    </style>
+    <style name="n3" parent="@style/yo">
+        <item name="android:gravity">right</item>
+    </style>
+    <style name="vr" parent="@style/yo">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">28dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+</resources>

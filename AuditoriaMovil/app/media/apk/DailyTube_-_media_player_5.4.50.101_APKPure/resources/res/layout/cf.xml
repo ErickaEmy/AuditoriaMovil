@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/layout_mini_tool_bar_0" android:layout_width="match_parent" android:layout_height="60dp">
+    <ImageView android:id="@+id/bt_refresh" android:tag="binding_1" android:padding="16dp" android:layout_width="56dp" android:layout_height="56dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:srcCompat="@drawable/n1"/>
+    <FrameLayout android:id="@+id/ivMe" android:tag="binding_2" android:layout_width="36dp" android:layout_height="44dp" app:layout_constraintBottom_toBottomOf="@+id/bt_refresh" app:layout_constraintEnd_toEndOf="@+id/bt_refresh" app:layout_constraintStart_toStartOf="@+id/bt_refresh" app:layout_constraintTop_toTopOf="@+id/bt_refresh"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

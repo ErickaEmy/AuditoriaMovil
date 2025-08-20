@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <free.daily.tube.background.dtoapp.views.FocusAwareCoordinator android:tag="layout/layout_activity_home_0" android:layout_width="match_parent" android:layout_height="0dp" bind:layout_constraintBottom_toTopOf="@+id/bottomBar_guideline" bind:layout_constraintTop_toTopOf="0">
+        <FrameLayout android:id="@+id/fragment_holder" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <FrameLayout android:layout_gravity="center_horizontal" android:id="@+id/fragment_player_holder" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="match_parent" bind:behavior_hideable="true" bind:behavior_peekHeight="0dp" bind:layout_behavior="free.daily.tube.background.dtoapp.player.event.CustomBottomSheetBehavior"/>
+    </free.daily.tube.background.dtoapp.views.FocusAwareCoordinator>
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@+id/bottomBar_guideline" android:tag="layout/layout_activity_home_3" android:layout_width="wrap_content" android:layout_height="wrap_content" bind:layout_constraintGuide_end="@dimen/s7"/>
+    <FrameLayout android:id="@+id/fragmentBottomBar" android:tag="layout/layout_activity_home_4" android:background="?attr/ys" android:layout_width="match_parent" android:layout_height="@dimen/s7" android:translationZ="@dimen/zy" bind:layout_constraintTop_toBottomOf="@+id/bottomBar_guideline"/>
+    <FrameLayout android:id="@+id/musicBarContainer" android:tag="layout/layout_activity_home_5" android:layout_width="match_parent" android:layout_height="55dp" bind:layout_constraintBottom_toTopOf="@+id/fragmentBottomBar" bind:layout_constraintEnd_toEndOf="0" bind:layout_constraintStart_toStartOf="0"/>
+    <FrameLayout android:id="@+id/homeTabGuideContainer" android:tag="layout/layout_activity_home_6" android:layout_width="match_parent" android:layout_height="match_parent" android:translationZ="9dp"/>
+    <FrameLayout android:id="@+id/musicContainer" android:tag="layout/layout_activity_home_7" android:layout_width="match_parent" android:layout_height="match_parent" bind:layout_constraintBottom_toBottomOf="0" bind:layout_constraintEnd_toEndOf="0" bind:layout_constraintStart_toStartOf="0" bind:layout_constraintTop_toTopOf="0"/>
+</merge>

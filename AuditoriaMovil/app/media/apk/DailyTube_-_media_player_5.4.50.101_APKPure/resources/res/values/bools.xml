@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="f">true</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="s">true</bool>
+    <bool name="a">true</bool>
+    <bool name="b">false</bool>
+    <bool name="k">true</bool>
+    <bool name="j">true</bool>
+    <bool name="y">false</bool>
+</resources>

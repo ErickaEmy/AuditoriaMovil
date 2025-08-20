@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/fragment_local_music_content_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/musicToolbar" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="?attr/b" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <ImageView android:id="@+id/ivBack" android:tag="binding_2" android:padding="@dimen/zb" android:layout_width="@dimen/u7" android:layout_height="@dimen/u7" android:layout_marginStart="@dimen/za" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="?attr/fdq" android:gravity="start" android:tag="binding_3" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginStart="@dimen/zj" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toEndOf="@+id/ivBack" app:layout_constraintTop_toTopOf="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include android:id="@+id/filterLayoutInclude" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/musicToolbar" layout="@layout/mr"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/shuffleLayout" android:tag="binding_4" android:padding="15dp" android:layout_width="wrap_content" android:layout_height="54dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/filterLayoutInclude">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="24dp" android:layout_height="24dp" app:srcCompat="@drawable/fkr"/>
+        <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="?attr/fdq" android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10dp"/>
+    </LinearLayout>
+    <free.daily.tube.page.list_business_interface.view.PagerSwipeRefreshLayout android:id="@+id/refreshLayout" android:tag="binding_6" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toTopOf="@+id/bottomActionLayout" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/shuffleLayout">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerView" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never"/>
+    </free.daily.tube.page.list_business_interface.view.PagerSwipeRefreshLayout>
+    <include android:id="@+id/bottomActionLayout" android:layout_width="match_parent" android:layout_height="60dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" layout="@layout/t8"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

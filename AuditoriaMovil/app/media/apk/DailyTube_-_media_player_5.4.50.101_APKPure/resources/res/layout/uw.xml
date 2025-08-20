@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:tag="layout/fragment_login_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="?attr/ui" android:layout_width="match_parent" android:layout_height="?attr/b" android:minHeight="@dimen/zk" android:translationZ="@dimen/zy">
+        <ImageView android:id="@+id/ivBack" android:tag="binding_1" android:padding="@dimen/zb" android:layout_width="@dimen/u7" android:layout_height="@dimen/u7" android:layout_marginStart="@dimen/za" bind:layout_constraintBottom_toBottomOf="0" bind:layout_constraintStart_toStartOf="0" bind:layout_constraintTop_toTopOf="0" bind:srcCompat="?attr/t4"/>
+        <ImageView android:id="@+id/ivFeedback" android:tag="binding_2" android:padding="@dimen/u5" android:layout_width="@dimen/u7" android:layout_height="@dimen/u7" bind:layout_constraintBottom_toBottomOf="0" bind:layout_constraintEnd_toEndOf="0" bind:layout_constraintTop_toTopOf="0" bind:srcCompat="?attr/pk"/>
+        <ImageView android:id="@+id/ivSS" android:tag="binding_3" android:padding="@dimen/u5" android:layout_width="@dimen/u7" android:layout_height="@dimen/u7" bind:layout_constraintBottom_toBottomOf="0" bind:layout_constraintEnd_toStartOf="@+id/ivFeedback" bind:layout_constraintTop_toTopOf="0" bind:srcCompat="?attr/pm"/>
+        <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="?attr/fdq" android:gravity="start" android:tag="binding_4" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginStart="@dimen/zj" bind:layout_constraintBottom_toBottomOf="0" bind:layout_constraintEnd_toStartOf="@+id/ivSS" bind:layout_constraintStart_toEndOf="@+id/ivBack" bind:layout_constraintTop_toTopOf="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include layout="@layout/qb"/>
+</LinearLayout>

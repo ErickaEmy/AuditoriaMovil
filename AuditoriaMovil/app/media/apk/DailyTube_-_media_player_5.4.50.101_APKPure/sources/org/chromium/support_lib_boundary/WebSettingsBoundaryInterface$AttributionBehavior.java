@@ -1,0 +1,8 @@
+package org.chromium.support_lib_boundary;
+
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+@Retention(RetentionPolicy.SOURCE)
+/* loaded from: classes.dex */
+public @interface WebSettingsBoundaryInterface$AttributionBehavior {
+}

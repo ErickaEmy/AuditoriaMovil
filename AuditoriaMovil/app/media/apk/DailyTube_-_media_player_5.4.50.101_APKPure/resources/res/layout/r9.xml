@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/dialog_view" android:background="@drawable/ky" android:layout_width="match_parent" android:layout_height="match_parent" android:elevation="10dp">
+    <ScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/sv" android:elevation="10dp">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/main_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/title_textview" style="@style/nf"/>
+            <TextView android:id="@+id/message_textview" android:layout_marginBottom="20dp" android:text="@string/b9" android:layout_marginStart="@dimen/s0" android:layout_marginEnd="@dimen/s0" style="@style/e7"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="18dp" android:paddingEnd="18dp">
+                <Switch android:id="@+id/personalized_advertising_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:textOn="" android:textOff="" android:minHeight="48dp" android:thumb="@drawable/kb" android:track="@drawable/kk" android:layout_marginEnd="16dp"/>
+                <TextView android:textColorLink="@color/f0" android:layout_gravity="center_vertical" android:id="@+id/personalized_advertising_switch_textview" android:layout_marginRight="24dp" android:layout_marginEnd="24dp" style="@style/e7"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="18dp" android:paddingEnd="18dp">
+                <Switch android:id="@+id/analytics_purposes_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:textOn="" android:textOff="" android:minHeight="48dp" android:thumb="@drawable/kb" android:track="@drawable/kk" android:layout_marginEnd="16dp"/>
+                <TextView android:textColorLink="@color/f0" android:layout_gravity="center_vertical" android:id="@+id/analytics_purposes_switch_textview" android:layout_marginRight="24dp" android:layout_marginEnd="24dp" style="@style/e7"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="18dp" android:paddingEnd="18dp">
+                <Switch android:id="@+id/privacy_policy_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:textOn="" android:textOff="" android:minHeight="48dp" android:thumb="@drawable/kb" android:track="@drawable/kk" android:layout_marginEnd="16dp"/>
+                <TextView android:textColorLink="@color/f0" android:layout_gravity="center_vertical" android:id="@+id/privacy_policy_switch_textview" android:layout_marginRight="24dp" android:layout_marginEnd="24dp" style="@style/e7"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/controls_view" android:layout_width="match_parent" android:layout_height="@dimen/sv">
+        <Button android:enabled="false" android:id="@+id/continue_button" android:layout_marginTop="8dp" android:text="@string/bc" android:layout_marginStart="20dp" android:layout_marginEnd="20dp" style="@style/e9"/>
+        <Button android:layout_gravity="center_horizontal" android:id="@+id/learn_more_button" android:layout_marginTop="8dp" android:layout_marginBottom="12dp" android:text="@string/b8" style="@style/e8"/>
+    </LinearLayout>
+</FrameLayout>

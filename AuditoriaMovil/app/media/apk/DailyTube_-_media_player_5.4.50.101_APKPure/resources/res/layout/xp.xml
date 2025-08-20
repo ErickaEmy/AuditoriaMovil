@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/item_video_detail_functional_botton_widget_0" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/buttonRoot_wrap" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:layout_gravity="center" android:id="@+id/rippleView" android:layout_width="10dp" android:layout_height="10dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <TextView android:textSize="12sp" android:gravity="center" android:id="@+id/buttonRoot" android:tag="binding_2" android:paddingTop="@dimen/u4" android:paddingBottom="@dimen/u4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="55dp" app:layout_constraintBottom_toTopOf="@+id/iv_widget" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <ImageView android:id="@+id/iv_widget" android:layout_width="20dp" android:layout_height="20dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/buttonRoot"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

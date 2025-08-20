@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="se" parent="@style/so">
+    </style>
+    <style name="s4" parent="@style/s2">
+    </style>
+    <style name="aa" parent="@style/ar">
+    </style>
+    <style name="al" parent="@style/ax">
+    </style>
+</resources>

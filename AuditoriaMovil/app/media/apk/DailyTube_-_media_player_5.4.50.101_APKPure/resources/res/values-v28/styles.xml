@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="sc" parent="@style/bz">
+    </style>
+    <style name="sn" parent="@style/bo">
+    </style>
+    <style name="br" parent="@style/m1">
+        <item name="android:backgroundDimAmount">0.32</item>
+        <item name="android:checkedTextViewStyle">@style/op</item>
+        <item name="android:dialogCornerRadius">@null</item>
+        <item name="rw">@style/gk</item>
+        <item name="buttonBarButtonStyle">@style/ox</item>
+        <item name="buttonBarNegativeButtonStyle">@style/ox</item>
+        <item name="buttonBarNeutralButtonStyle">@style/od</item>
+        <item name="buttonBarPositiveButtonStyle">@style/ox</item>
+        <item name="frj">@style/gj</item>
+    </style>
+    <style name="bz" parent="@style/bt">
+        <item name="dialogCornerRadius">?android:attr/dialogCornerRadius</item>
+    </style>
+    <style name="bo" parent="@style/bm">
+        <item name="dialogCornerRadius">?android:attr/dialogCornerRadius</item>
+    </style>
+    <style name="tt_app_open_ad_no_animation" parent="@android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/tt_animation</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">never</item>
+    </style>
+</resources>

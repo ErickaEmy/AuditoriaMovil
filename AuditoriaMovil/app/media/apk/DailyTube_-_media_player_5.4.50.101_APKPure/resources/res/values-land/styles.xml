@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="zp" parent="@style/jo">
+        <item name="fh8">center</item>
+        <item name="fxx">fixed</item>
+    </style>
+    <style name="wi" parent="@style/zk">
+        <item name="android:textAppearance">?attr/fds</item>
+        <item name="android:textColor">?attr/y2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">@integer/p</item>
+    </style>
+</resources>

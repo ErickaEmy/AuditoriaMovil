@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="@dimen/ir">
+    <LinearLayout android:layout_gravity="top|center_horizontal" android:orientation="horizontal" android:paddingLeft="@dimen/l8" android:paddingTop="@dimen/l8" android:paddingRight="@dimen/l8" android:layout_width="match_parent" android:layout_height="@dimen/ir" android:paddingStart="@dimen/l8" android:paddingEnd="@dimen/l8" style="?attr/frp">
+        <com.google.android.material.button.MaterialButton android:gravity="center" android:layout_gravity="top" android:id="@+id/cancel_button" android:padding="12dp" android:layout_width="@dimen/t6" android:layout_height="@dimen/t6" android:insetTop="0dp" android:insetBottom="0dp" android:contentDescription="@string/flx" app:icon="@drawable/fup" app:rippleColor="@color/t3" style="?attr/frm"/>
+        <FrameLayout android:id="@+id/mtrl_picker_header_title_and_selection" android:paddingLeft="@dimen/ia" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:paddingStart="@dimen/ia">
+            <TextView android:gravity="start|bottom" android:layout_gravity="start|top" android:id="@+id/mtrl_picker_title_text" android:layout_width="match_parent" android:layout_height="wrap_content" app:firstBaselineToTopHeight="@dimen/iz" style="?attr/fro"/>
+            <TextView android:gravity="start|bottom" android:layout_gravity="start|top" android:id="@+id/mtrl_picker_header_selection_text" android:paddingBottom="@dimen/il" android:layout_width="match_parent" android:layout_height="wrap_content" app:firstBaselineToTopHeight="@dimen/ii" app:lineHeight="@dimen/is" style="?attr/frz"/>
+        </FrameLayout>
+        <LinearLayout android:orientation="@integer/q" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.google.android.material.button.MaterialButton android:layout_gravity="end|top" android:id="@+id/confirm_button" android:layout_width="wrap_content" android:layout_height="@dimen/t6" android:text="@string/fl2" android:contentDescription="@string/fl2" style="?attr/frc"/>
+            <include layout="@layout/ww"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="@dimen/l9" style="?attr/frq"/>
+</merge>

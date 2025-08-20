@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/fragment_local_media_second_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_width="0dp" android:layout_height="wrap_content" android:scaleType="fitXY" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:srcCompat="?attr/ao"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/toolbar" android:layout_width="0dp" android:layout_height="58dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@+id/ivBack" android:padding="12dp" android:layout_width="48dp" android:layout_height="48dp" app:srcCompat="?attr/t4"/>
+        <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="?attr/fdq" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fhs"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/coreLayout" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/toolbar"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

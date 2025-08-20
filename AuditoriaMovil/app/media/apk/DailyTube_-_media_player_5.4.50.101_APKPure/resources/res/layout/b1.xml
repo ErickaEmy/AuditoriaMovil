@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/layoutFansZoneToolbarEntrance" android:tag="layout/fans_zone_layout_toolbar_entrance_0" android:background="?attr/selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/flNormalIcon" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:tag="binding_1" android:layout_width="@dimen/u6" android:layout_height="@dimen/u6" android:layout_marginLeft="6dp" android:layout_marginTop="10dp" android:layout_marginRight="6dp" android:layout_marginBottom="10dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:srcCompat="@drawable/mv"/>
+        <View android:layout_gravity="end|top" android:tag="binding_2" android:background="@drawable/frr" android:layout_width="6dp" android:layout_height="6dp" android:layout_marginTop="7dp" android:layout_marginEnd="3dp"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/flToggleAnim" android:layout_width="36dp" android:layout_height="30dp">
+        <com.airbnb.lottie.LottieAnimationView android:id="@+id/ivToggleAnim" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerInside" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:lottie_autoPlay="false" app:lottie_loop="true"/>
+    </FrameLayout>
+</FrameLayout>
