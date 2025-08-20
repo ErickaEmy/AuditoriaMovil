@@ -1,0 +1,77 @@
+[WARNING] 20/Aug/2025 16:00:17 - Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[WARNING] 20/Aug/2025 19:01:58 - Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[WARNING] 20/Aug/2025 19:06:47 - Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[WARNING] 20/Aug/2025 19:14:00 - Not Found: /.well-known/appspecific/com.chrome.devtools.json
+[WARNING] 20/Aug/2025 19:29:36 - Not Found: /favicon.ico
+[WARNING] 20/Aug/2025 19:52:46 - Bad Request: /api/v1/auth-token/
+[WARNING] 20/Aug/2025 19:54:14 - Bad Request: /api/v1/auth-token/
+[WARNING] 20/Aug/2025 19:57:46 - Bad Request: /api/v1/auth-token/
+[WARNING] 20/Aug/2025 19:58:57 - Forbidden (CSRF cookie not set.): /
+[WARNING] 20/Aug/2025 19:59:11 - Not Found: /favicon.ico
+[WARNING] 20/Aug/2025 20:00:04 - Method Not Allowed: /api/v1/auth-token/
+[ERROR] 20/Aug/2025 20:05:24 - Internal Server Error: /swagger.yaml
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/usr/local/lib/python3.10/site-packages/drf_yasg/renderers.py", line 35, in render
+    return codec.encode(data)
+  File "/usr/local/lib/python3.10/site-packages/drf_yasg/codecs.py", line 82, in encode
+    return force_bytes(self._dump_dict(spec))
+  File "/usr/local/lib/python3.10/site-packages/drf_yasg/codecs.py", line 234, in _dump_dict
+    return yaml_sane_dump(spec, binary=True)
+  File "/usr/local/lib/python3.10/site-packages/drf_yasg/codecs.py", line 202, in yaml_sane_dump
+    return yaml.dump(data, Dumper=SaneYamlDumper, default_flow_style=False, encoding='utf-8' if binary else None)
+  File "/usr/local/lib/python3.10/site-packages/ruamel/yaml/main.py", line 1251, in dump
+    error_deprecation('dump', 'dump', arg="typ='unsafe', pure=True")
+  File "/usr/local/lib/python3.10/site-packages/ruamel/yaml/main.py", line 1039, in error_deprecation
+    raise AttributeError(s, name=None)
+AttributeError: 
+"dump()" has been removed, use
+
+  yaml = YAML(typ='unsafe', pure=True)
+  yaml.dump(...)
+
+instead of file "/usr/local/lib/python3.10/site-packages/drf_yasg/codecs.py", line 202
+
+    return yaml.dump(data, Dumper=SaneYamlDumper, default_flow_style=False, encoding='utf-8' if binary else None)
+
+
+[ERROR] 20/Aug/2025 20:05:31 - Internal Server Error: /swagger.yaml
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/usr/local/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/usr/local/lib/python3.10/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/usr/local/lib/python3.10/site-packages/drf_yasg/renderers.py", line 35, in render
+    return codec.encode(data)
+  File "/usr/local/lib/python3.10/site-packages/drf_yasg/codecs.py", line 82, in encode
+    return force_bytes(self._dump_dict(spec))
+  File "/usr/local/lib/python3.10/site-packages/drf_yasg/codecs.py", line 234, in _dump_dict
+    return yaml_sane_dump(spec, binary=True)
+  File "/usr/local/lib/python3.10/site-packages/drf_yasg/codecs.py", line 202, in yaml_sane_dump
+    return yaml.dump(data, Dumper=SaneYamlDumper, default_flow_style=False, encoding='utf-8' if binary else None)
+  File "/usr/local/lib/python3.10/site-packages/ruamel/yaml/main.py", line 1251, in dump
+    error_deprecation('dump', 'dump', arg="typ='unsafe', pure=True")
+  File "/usr/local/lib/python3.10/site-packages/ruamel/yaml/main.py", line 1039, in error_deprecation
+    raise AttributeError(s, name=None)
+AttributeError: 
+"dump()" has been removed, use
+
+  yaml = YAML(typ='unsafe', pure=True)
+  yaml.dump(...)
+
+instead of file "/usr/local/lib/python3.10/site-packages/drf_yasg/codecs.py", line 202
+
+    return yaml.dump(data, Dumper=SaneYamlDumper, default_flow_style=False, encoding='utf-8' if binary else None)
+
+

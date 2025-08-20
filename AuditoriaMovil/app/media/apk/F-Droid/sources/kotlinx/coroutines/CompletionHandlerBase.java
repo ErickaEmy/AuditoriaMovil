@@ -1,0 +1,9 @@
+package kotlinx.coroutines;
+
+import kotlin.jvm.functions.Function1;
+import kotlinx.coroutines.internal.LockFreeLinkedListNode;
+/* compiled from: CompletionHandler.kt */
+/* loaded from: classes2.dex */
+public abstract class CompletionHandlerBase extends LockFreeLinkedListNode implements Function1 {
+    public abstract void invoke(Throwable th);
+}

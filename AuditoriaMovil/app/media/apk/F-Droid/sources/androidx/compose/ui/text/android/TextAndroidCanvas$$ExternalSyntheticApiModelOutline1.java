@@ -1,0 +1,5 @@
+package androidx.compose.ui.text.android;
+/* compiled from: R8$$SyntheticClass */
+/* loaded from: classes.dex */
+public abstract /* synthetic */ class TextAndroidCanvas$$ExternalSyntheticApiModelOutline1 {
+}

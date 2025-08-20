@@ -1,0 +1,60 @@
+2025/08/20 12:37:53 [notice] 1#1: using the "epoll" event method
+2025/08/20 12:37:53 [notice] 1#1: nginx/1.24.0
+2025/08/20 12:37:53 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2025/08/20 12:37:53 [notice] 1#1: OS: Linux 6.6.87.2-microsoft-standard-WSL2
+2025/08/20 12:37:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/08/20 12:37:53 [notice] 1#1: start worker processes
+2025/08/20 12:37:53 [notice] 1#1: start worker process 29
+2025/08/20 12:37:53 [notice] 1#1: start worker process 30
+2025/08/20 12:37:53 [notice] 1#1: start worker process 31
+2025/08/20 12:37:53 [notice] 1#1: start worker process 32
+2025/08/20 12:37:53 [notice] 1#1: start worker process 33
+2025/08/20 12:37:53 [notice] 1#1: start worker process 34
+2025/08/20 12:37:53 [notice] 1#1: start worker process 35
+2025/08/20 12:37:53 [notice] 1#1: start worker process 36
+2025/08/20 12:37:53 [notice] 1#1: start worker process 37
+2025/08/20 12:37:53 [notice] 1#1: start worker process 38
+2025/08/20 12:37:53 [notice] 1#1: start worker process 39
+2025/08/20 12:37:53 [notice] 1#1: start worker process 40
+2025/08/20 13:00:22 [notice] 1#1: using the "epoll" event method
+2025/08/20 13:00:22 [notice] 1#1: nginx/1.24.0
+2025/08/20 13:00:22 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2025/08/20 13:00:22 [notice] 1#1: OS: Linux 6.6.87.2-microsoft-standard-WSL2
+2025/08/20 13:00:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/08/20 13:00:22 [notice] 1#1: start worker processes
+2025/08/20 13:00:22 [notice] 1#1: start worker process 22
+2025/08/20 13:00:22 [notice] 1#1: start worker process 23
+2025/08/20 13:00:22 [notice] 1#1: start worker process 24
+2025/08/20 13:00:22 [notice] 1#1: start worker process 25
+2025/08/20 13:00:22 [notice] 1#1: start worker process 26
+2025/08/20 13:00:22 [notice] 1#1: start worker process 27
+2025/08/20 13:00:22 [notice] 1#1: start worker process 28
+2025/08/20 13:00:22 [notice] 1#1: start worker process 29
+2025/08/20 13:00:22 [notice] 1#1: start worker process 30
+2025/08/20 13:00:22 [notice] 1#1: start worker process 31
+2025/08/20 13:00:22 [notice] 1#1: start worker process 32
+2025/08/20 13:00:22 [notice] 1#1: start worker process 33
+2025/08/20 16:50:28 [notice] 1#1: using the "epoll" event method
+2025/08/20 16:50:28 [notice] 1#1: nginx/1.24.0
+2025/08/20 16:50:28 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2025/08/20 16:50:28 [notice] 1#1: OS: Linux 6.6.87.2-microsoft-standard-WSL2
+2025/08/20 16:50:28 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2025/08/20 16:50:28 [notice] 1#1: start worker processes
+2025/08/20 16:50:28 [notice] 1#1: start worker process 22
+2025/08/20 16:50:28 [notice] 1#1: start worker process 23
+2025/08/20 16:50:28 [notice] 1#1: start worker process 24
+2025/08/20 16:50:28 [notice] 1#1: start worker process 25
+2025/08/20 16:50:28 [notice] 1#1: start worker process 26
+2025/08/20 16:50:28 [notice] 1#1: start worker process 27
+2025/08/20 16:50:28 [notice] 1#1: start worker process 28
+2025/08/20 16:50:28 [notice] 1#1: start worker process 29
+2025/08/20 16:50:28 [notice] 1#1: start worker process 30
+2025/08/20 16:50:28 [notice] 1#1: start worker process 31
+2025/08/20 16:50:28 [notice] 1#1: start worker process 32
+2025/08/20 16:50:28 [notice] 1#1: start worker process 33
+2025/08/20 17:29:36 [error] 30#30: *21 upstream prematurely closed connection while reading response header from upstream, client: 172.18.0.1, server: localhost, request: "GET /export/1 HTTP/1.1", upstream: "http://172.18.0.2:8000/export/1", host: "localhost:8888", referrer: "http://localhost:8888/scan/1"
+2025/08/20 18:55:41 [notice] 1#1: using the "epoll" event method
+2025/08/20 18:55:41 [notice] 1#1: nginx/1.24.0
+2025/08/20 18:55:41 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2025/08/20 18:55:41 [notice] 1#1: OS: Linux 6.6.87.2-microsoft-standard-WSL2
+2025/08/20 18:55:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
